@@ -1,5 +1,7 @@
 # ReviewLens AI-Assisted Development and Review Standards
 
+**Project:** ReviewLens AI | **Team:** Fantastic Six | **Story:** S1-004 | **Related rules:** S1-BR-004, S1-BR-008, S1-BR-011
+
 ## Core principle
 AI-generated code is treated as team-authored code. The developer who prompts, accepts, and commits it is its author and is fully responsible for it. It goes through the same pull request, review, testing, and Definition of Done as hand-written code.
 
@@ -22,7 +24,7 @@ Context we will provide (as relevant to the task):
 - Existing conventions: naming, folder structure, error response shape, validation approach.
 
 Context we will NOT provide:
-- API keys, service-role keys, database connection strings, tokens, or .env contents.
+- API keys, service-role keys, database connection strings, tokens, or `.env` contents.
 - Real user data, personal information, or private review data that is not approved for sharing.
 - Credentials of any kind, even "temporary" ones.
 
@@ -50,7 +52,7 @@ AI tools can invent packages, functions, and endpoints, or suggest outdated or u
 - Check the package's license, weekly downloads, and last release before adding it.
 - Add a dependency only when it is needed. Prefer what the stack already provides.
 - Verify every API call, method, or option against the official documentation (Next.js, Supabase, OpenAI), not just the AI's explanation.
-- Run npm audit after adding or updating dependencies and resolve high and critical findings.
+- Run `npm audit` after adding or updating dependencies and resolve high and critical findings.
 - Commit the lockfile with the change, and pin or review version ranges.
 - Never run install scripts or commands from AI output without reading them first.
 
