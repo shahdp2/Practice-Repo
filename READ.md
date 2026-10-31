@@ -95,3 +95,13 @@ Any pull request that includes AI-generated code in the areas below needs a seco
 - **Third-party calls.** Code that calls the OpenAI API or another external service, especially what data is sent.
 - **New or upgraded dependencies** with network, file-system, or install-script access.
 - **Error handling.** Responses must not leak stack traces, secret keys, or internal diagnostics to the browser.
+
+## Definition of Done (applies equally to AI-generated code)
+
+- [ ] Meets the story's acceptance criteria
+- [ ] Reviewed and approved by a teammate other than the author
+- [ ] Build, type-check, and tests pass (in CI once configured, otherwise locally with results in the PR)
+- [ ] Security rules S1-BR-004, S1-BR-008, and S1-BR-011 verified where applicable
+- [ ] Dependencies and APIs verified against official sources
+- [ ] No secrets in source control or client-delivered code
+- [ ] AI session transcript saved and linked in the PR (if AI was used)
