@@ -6,9 +6,12 @@ AI-generated code is treated as team-authored code. The developer who prompts, a
 
 ## 1. AI coding tools the team expects to use
 
-Tool	                            Typical use
-Claude (chat)	                    Design questions, debugging, explaining errors, drafting docs
-ChatGPT	                            Same as above; second opinion on generated code
+| Tool | Typical use |
+|---|---|
+| Claude (chat) | Design questions, debugging, explaining errors, drafting docs |
+| ChatGPT | Same as above; second opinion on generated code |
+
+Any other AI tool must be added to this table before it is used on project code.
 
 ## 2. Context supplied to AI tools
 
