@@ -1,4 +1,4 @@
-# ReviewLens - AI-Assisted Development and Review Standards
+# ReviewLens AI-Assisted Development and Review Standards
 
 ## Core principle
 AI-generated code is treated as team-authored code. The developer who prompts, accepts, and commits it is its author and is fully responsible for it. It goes through the same pull request, review, testing, and Definition of Done as hand-written code.
